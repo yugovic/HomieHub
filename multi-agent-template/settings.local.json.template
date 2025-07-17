@@ -1,0 +1,50 @@
+{
+  "allowed_commands": [
+    "git",
+    "npm",
+    "npx",
+    "node",
+    "pnpm",
+    "yarn",
+    "ls",
+    "cat",
+    "echo",
+    "mkdir",
+    "touch",
+    "cp",
+    "mv",
+    "pwd",
+    "cd",
+    "code",
+    "cursor",
+    "zellij"
+  ],
+  "denied_commands": [
+    "rm -rf /",
+    "sudo rm",
+    "format",
+    "fdisk",
+    "dd",
+    "mkfs"
+  ],
+  "auto_approve_patterns": [
+    "npm install",
+    "npm run dev",
+    "npm run build",
+    "git status",
+    "git diff",
+    "git log"
+  ],
+  "project_settings": {
+    "name": "YOUR_PROJECT_NAME",
+    "type": "YOUR_PROJECT_TYPE",
+    "database": "YOUR_DATABASE",
+    "testing": "YOUR_TEST_FRAMEWORK",
+    "styling": "YOUR_STYLING_SOLUTION"
+  },
+  "agent_settings": {
+    "message_check_interval": 5000,
+    "auto_start_claude": true,
+    "enable_notifications": true
+  }
+}

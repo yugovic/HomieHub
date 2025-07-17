@@ -1,0 +1,66 @@
+# Shared ToDo List - [PROJECT NAME]
+
+## Project Overview
+[プロジェクトの概要説明]
+
+Last updated: [DATE]
+
+---
+
+## 🔴 High Priority Tasks
+
+### [カテゴリ1]
+- [ ] タスク1
+- [ ] タスク2
+- [ ] タスク3
+
+### [カテゴリ2]
+- [ ] タスク1
+- [ ] タスク2
+
+---
+
+## 🟡 Medium Priority Tasks
+
+### [カテゴリ3]
+- [ ] タスク1
+- [ ] タスク2
+
+### [カテゴリ4]
+- [ ] タスク1
+- [ ] タスク2
+
+---
+
+## 🟢 Low Priority Tasks
+
+### [カテゴリ5]
+- [ ] タスク1
+- [ ] タスク2
+
+---
+
+## 📝 Task Assignment
+
+| Task | Assignee | Status | Due Date |
+|------|----------|--------|----------|
+| [タスク名] | [Agent] | Not Started | [DATE] |
+| [タスク名] | [Agent] | In Progress | [DATE] |
+| [タスク名] | [Agent] | Completed | [DATE] |
+
+---
+
+## 📊 Progress Tracking
+
+- Total Tasks: [NUMBER]
+- Completed: [NUMBER]
+- In Progress: [NUMBER]
+- Not Started: [NUMBER]
+
+---
+
+## 📌 Notes
+
+- 各タスクの完了時は、このファイルを更新してください
+- 新しいタスクは適切な優先度セクションに追加してください
+- 毎日の始めに進捗を確認し、必要に応じて優先度を調整してください

@@ -1,0 +1,24 @@
+layout {
+    pane split_direction="vertical" {
+        pane split_direction="horizontal" {
+            pane {
+                name "🤵 Project Manager"
+                command "bash" "-c" "node agent.js 'あなたは優秀なプロジェクトマネージャーです。プロジェクトの全体像を把握し、タスクを定義・管理します。'; exec bash"
+            }
+            pane {
+                name "🧑‍💻 Developer"
+                command "bash" "-c" "node agent.js 'あなたは熟練の開発者です。PMからの指示に基づき、高品質なコードを実装します。'; exec bash"
+            }
+        }
+        pane split_direction="horizontal" {
+            pane {
+                name "🎨 UI Designer"
+                command "bash" "-c" "node agent.js 'あなたは創造的なUIデザイナーです。ユーザー体験を重視した美しいインターフェースを設計します。'; exec bash"
+            }
+            pane {
+                name "👀 Reviewer"
+                command "bash" "-c" "node agent.js 'あなたは厳格なコードレビュアーです。コードの品質、セキュリティ、パフォーマンスを評価し、改善点を指摘します。'; exec bash"
+            }
+        }
+    }
+}

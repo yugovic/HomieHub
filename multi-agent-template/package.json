@@ -1,0 +1,23 @@
+{
+  "name": "multi-agent-template",
+  "version": "1.0.0",
+  "description": "Multi-agent development system template",
+  "main": "agent.js",
+  "scripts": {
+    "test": "node test-agent.js",
+    "test:interactive": "./simple-test.sh",
+    "agent": "node agent.js",
+    "clean:messages": "rm -f shared/messages/*.txt"
+  },
+  "keywords": [
+    "multi-agent",
+    "ai",
+    "development",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
